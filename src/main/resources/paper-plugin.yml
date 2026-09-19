@@ -26,6 +26,4 @@ dependencies:
       required: false
     UltimateTeams:
       required: false
-    ifrax-global:
-      required: true
 authors: [ Lumen-Fire ]

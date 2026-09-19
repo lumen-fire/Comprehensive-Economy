@@ -16,7 +16,7 @@ public class VaultEconomy implements Economy {
 
     @Override
     public String getName() {
-        return "ifrax-economy";
+        return "Comprehensive-Economy";
     }
 
     /**For now, I don't need bank support, so it is disabled, as I don't think any plugins hooking in use it, even the teams plugin for its team banks*/
