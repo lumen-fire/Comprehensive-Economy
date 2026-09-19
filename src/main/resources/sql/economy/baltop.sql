@@ -1,0 +1,4 @@
+SELECT *
+FROM economy
+ORDER BY bits DESC
+    LIMIT 10;

@@ -1,0 +1,21 @@
+currency:
+  name: bit
+  name-plural: bits
+  starting-currency: 250
+  format: $s bits
+  format-singular: 1 bit
+  #Set to 0 for whole numbers only, anything less than 0 for no rounding
+  rounding-places: 2
+homes:
+  teleport:
+    base-cost: 8
+    cost-per-home: 2
+  set:
+    base-cost: 250
+    cost-per-home: 10
+sell:
+  minecraft:netherite_scrap:
+    price: 100
+    slot: 13
+    name: Netherite Scrap
+sell-gui-rows: 3

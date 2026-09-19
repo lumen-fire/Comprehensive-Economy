@@ -1,0 +1,1 @@
+SELECT wanted, bounty FROM bounties WHERE issuer = ?

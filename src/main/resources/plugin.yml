@@ -1,0 +1,24 @@
+name: Comprehensive-Economy
+description: Should only be used for mockBukkit testing
+version: '1.0'
+
+main: me.lumen.comprehensiveEconomy.ComprehensiveEconomy
+api-version: '1.21.11'
+permissions:
+  comprehensive-economy.setbalance:
+    default: op
+    description: Set a players balance - intended for debugging mainly
+  comprehensive-economy.baltoprefresh:
+    default: op
+    description: Allows you to refresh top balances
+  comprehensive-economy.reload:
+    default: op
+    description: Allows you to reload the plugin's config
+  comprehensive-economy.bounty-item:
+    default: op
+    description: Allows you to use /bounty-claim-item-spawn to spawn the claim item for a player, mainly intended for debugging
+  comprehensive-economy.sethub:
+    default: op
+    description: Allows you to set the hub server
+softdepend: ["PlaceholderAPI", "Vault"]
+authors: [ Lumen-Fire ]

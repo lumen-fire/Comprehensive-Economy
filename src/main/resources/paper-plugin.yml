@@ -1,0 +1,31 @@
+name: Comprehensive-Economy
+description: A comprehensive economy system, with bounties, homes, and /sell out of the box
+version: '1.0.2'
+
+main: me.lumen.comprehensiveEconomy.ComprehensiveEconomy
+bootstrapper: me.lumen.comprehensiveEconomy.ComprehensiveEconomyBootrap
+api-version: '1.21.11'
+permissions:
+  comprehensive-economy.setbalance:
+    default: op
+    description: Set a players balance - intended for debugging mainly
+  comprehensive-economy.baltoprefresh:
+    default: op
+    description: Allows you to refresh top balances
+  comprehensive-economy.bounty-item:
+    default: op
+    description: Allows you to use /bounty-claim-item-spawn to spawn the claim item for a player, mainly intended for debugging
+dependencies:
+  server:
+    PlaceholderAPI:
+      load: BEFORE
+      required: false
+    Vault:
+      #Load after to make sure that this plugin is loaded when other plugins try to use vault
+      load: AFTER
+      required: false
+    UltimateTeams:
+      required: false
+    ifrax-global:
+      required: true
+authors: [ Lumen-Fire ]

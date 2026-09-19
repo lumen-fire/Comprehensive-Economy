@@ -1,0 +1,1 @@
+SELECT bits FROM economy WHERE uuid = ?

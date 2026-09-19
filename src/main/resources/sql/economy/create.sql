@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS economy (
+    uuid TEXT NOT NULL,
+    bits DOUBLE NOT NULL,
+    PRIMARY KEY(uuid)
+)
