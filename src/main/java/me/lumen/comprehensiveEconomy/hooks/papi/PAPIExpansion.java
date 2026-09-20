@@ -19,7 +19,7 @@ public class PAPIExpansion extends PlaceholderExpansion {
 
     @Override
     public @NotNull String getAuthor() {
-        return "J.H/Lumen-Fire";
+        return "Lumen-Fire";
     }
 
     @Override
